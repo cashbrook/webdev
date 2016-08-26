@@ -10,7 +10,7 @@ body {
 
 h1{
 	font-family: 'Source Sans Pro', sans-serif;
-	color: black;
+	color: yellow;
   letter-spacing: 6px;
   text-transform: uppercase;
   padding: 0;
@@ -23,15 +23,14 @@ p {
 	height: 250px;
 }
 
-#test {
-	background-size: auto;
-}
-
 #header-nav {
-	background-color: salmon;
+	background-color: #fb9084;
 	border: none;
 }
 
+#test {
+	border: 5px solid white;
+}
 .navbar-brand {
 	padding-top: 5px;
 }
