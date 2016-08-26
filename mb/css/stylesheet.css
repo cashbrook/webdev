@@ -64,13 +64,27 @@ p {
 /*extra small devices only*/
 @media (max-width: 767px) {
 	h1 {
-		font-size: 1em;
+		font-size: 1.5em;
+		letter-spacing: 4px;
+		color: yellow;
+	}
+
+	.navbar-brand {
+		padding-top: 10px;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 1.1em;
+		color: yellow;
 	}
 
 	.navbar-brand {
 		padding-top: 15px;
+		padding-right: 0px;
 	}
 }
-
 
 
