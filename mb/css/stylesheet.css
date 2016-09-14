@@ -3,18 +3,14 @@
 }
 
 body {
-  background-color: #F7C8CF;
+  background-color: white;
   background-repeat: no-repeat;
 
 }
 
 h1{
 	font-family: 'Source Sans Pro', sans-serif;
-<<<<<<< HEAD
-	color: #703838;
-=======
-	color: yellow;
->>>>>>> 4b38ef0925419e9885eb6b7e177020accb2d9f2b
+	color: white;
   letter-spacing: 6px;
   text-transform: uppercase;
   padding: 0;
@@ -27,36 +23,36 @@ p {
 	height: 250px;
 }
 
-<<<<<<< HEAD
-#test {
+#photo {
 	background-size: auto;
+	border: 2px solid black;
 }
 
 /*navbar*/
-#header-nav {
-	background-color: #C65582;
-=======
-#header-nav {
-	background-color: #fb9084;
->>>>>>> 4b38ef0925419e9885eb6b7e177020accb2d9f2b
+.navbar-default {
+	background-color: black;
 	border: none;
 }
 
-#test {
-	border: 5px solid white;
-}
 .navbar-brand {
 	padding-top: 5px;
-}
-
-#nav-list {
-	color: #703838
 }
 
 #collapsable-nav {
 /*	border: none;*/
 }
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-header .navbar-brand > a:hover {
+	color: red;
+}
 /*end of navbar*/
+
+
 
 
 /*small devices only*/
@@ -94,5 +90,4 @@ p {
 		padding-right: 0px;
 	}
 }
-
 
