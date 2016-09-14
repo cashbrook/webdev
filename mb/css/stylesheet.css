@@ -10,7 +10,11 @@ body {
 
 h1{
 	font-family: 'Source Sans Pro', sans-serif;
+<<<<<<< HEAD
 	color: #703838;
+=======
+	color: yellow;
+>>>>>>> 4b38ef0925419e9885eb6b7e177020accb2d9f2b
   letter-spacing: 6px;
   text-transform: uppercase;
   padding: 0;
@@ -23,6 +27,7 @@ p {
 	height: 250px;
 }
 
+<<<<<<< HEAD
 #test {
 	background-size: auto;
 }
@@ -30,9 +35,16 @@ p {
 /*navbar*/
 #header-nav {
 	background-color: #C65582;
+=======
+#header-nav {
+	background-color: #fb9084;
+>>>>>>> 4b38ef0925419e9885eb6b7e177020accb2d9f2b
 	border: none;
 }
 
+#test {
+	border: 5px solid white;
+}
 .navbar-brand {
 	padding-top: 5px;
 }
