@@ -24,12 +24,14 @@ h1{
 
 #headshot {
 	margin-top: 20px;
+	margin-bottom: 200px;
 }
 
 /*navbar*/
 .navbar-default {
 	background-color: #3e4349;
 	border: none;
+	border-radius: 0;
 }
 
 .navbar-brand {
@@ -56,6 +58,7 @@ h1{
 
 /*end of navbar*/
 
+/*footer*/
 .footer {
   margin-top: 60px;
   padding-top: 8px;
@@ -63,9 +66,20 @@ h1{
   background-color: #3e4349;
   color: #C2BFBB;
 }
+/*end of footer*/
 
 .temp {
 	height: 150px;
+}
+
+/*resume section*/
+#resume {
+	height: 500px;
+	background-color: #59778F;
+}
+
+#resume p {
+	padding-top: 30px;
 }
 
 
